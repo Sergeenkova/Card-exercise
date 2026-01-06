@@ -81,7 +81,8 @@ const StyledBtnInfo = styled.button`
   color: ${myTheme.colors.colorSecondary};
   font-size: ${myTheme.button.fontSize};;
   font-weight: ${myTheme.button.fontWeight};
-  padding: 10px 20px;
+  width: 86px;
+  height: 30px;
 `;
 
 type StyledBtnSavePropsType = {
@@ -93,5 +94,4 @@ const StyledBtnSave = styled(StyledBtnInfo)<StyledBtnSavePropsType>`
   border: 2px solid ${props => props.color};
   background-color: ${props => props.backgroundColor};
   color: ${props => props.color};
-  padding: 8px 29px;
   `
